@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cookandroid.gazae">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:hardwareAccelerated="false"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondActivity" android:label="세컨트 액티비티"/>
+        <activity android:name=".ThirdActivity" android:label="셋째 액티비티"/>
+        <activity android:name=".FourthActivity" android:label="넷째 액티비티"/>
+        <activity android:name=".FifithActivity" android:label="다섯째 액티비티"/>
+    </application>
+
+</manifest>
